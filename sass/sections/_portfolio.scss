@@ -45,7 +45,8 @@
   transform: translateY(100%);
   transition: transform 250ms var(--cubic-anime);
 
-  .link-portfolio-cards:hover & {
+  .link-portfolio-cards:hover &,
+  .link-portfolio-cards:focus & {
     transform: translateY(0);
   }
 }

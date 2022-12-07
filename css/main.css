@@ -190,7 +190,7 @@ img {
   color: var(--accent-color);
 }
 
-.our-advantage {
+.advantage {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -700,7 +700,7 @@ img {
   transform: translateY(100%);
   transition: transform 250ms var(--cubic-anime);
 }
-.link-portfolio-cards:hover .portfolio-text {
+.link-portfolio-cards:hover .portfolio-text, .link-portfolio-cards:focus .portfolio-text {
   transform: translateY(0);
 }
 
